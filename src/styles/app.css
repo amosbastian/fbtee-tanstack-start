@@ -1,7 +1,17 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
 
 @layer base {
+
   html {
-    color-scheme: light dark;
+    height: 100%;
+    width: 100%;
+    overscroll-behavior: none;
+  }
+
+  body {
+    height: 100%;
+    width: 100%;
+    overscroll-behavior: none;
   }
 }
